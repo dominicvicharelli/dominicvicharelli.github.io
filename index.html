@@ -1,5 +1,51 @@
 <!-- <embed src="https://dominicvicharelli.github.io/book.pdf" type="application/pdf" width=100% height=100% /> -->
 <!-- <iframe src = "/ViewerJS/#../book.pdf" width=100% height=100% allowfullscreen webkitallowfullscreen></iframe> -->
-<object data="book.pdf" type="application/pdf" width=100% height=100%>
-  <p> Not supported on mobile. <a href="book.pdf" Download instead </a> </p>
-</object>
+
+
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        text-align: center;
+        background-color: #201;
+      }
+      h1 {
+        padding-top: 10vh;
+        font-size: 36px;
+        font-weight: normal;
+        color: #FFFC;
+      }
+      h2 {
+        padding-bottom: 10vh;
+        font-size: 24px;
+        font-weight: normal;
+        color: #FFFA;
+      }
+      a {
+        display: inline-block;
+        padding: 16px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #F88;
+        border: 1px solid #F88;
+        border-radius: 5px;
+      }
+      a:hover {
+        background-color: #FFF1;
+      }
+      #detail {
+        margin-top: 16px;
+        font-size: 14px;
+        font-style: italic;
+        color: #F888;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Paradigm Shift</h1>
+    <h2>A book by Dominic Vicharelli</h2>
+    <a href="book.pdf" target="_blank">Read it here</a>
+    <div id="detail">1MB PDF File</div>
+  </body>
+</html>
